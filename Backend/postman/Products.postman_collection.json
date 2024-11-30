@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "037ec0c8-c597-48a6-81cb-e51c4f909c34",
+		"name": "Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38433971"
+	},
+	"item": [
+		{
+			"name": "Upload CSV",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/F:/React Practice/DigiFlux-Task/Backend/Products_Data.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/api/products/upload",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/products/list",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"list"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Smartwatch",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "Electronics",
+							"disabled": true
+						},
+						{
+							"key": "isAvailable",
+							"value": "true",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Product By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/products/674ab9274ef497e8c6e33e93",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"674ab9274ef497e8c6e33e93"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Image Preview",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/products/674ab9274ef497e8c6e33e93/preview",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"674ab9274ef497e8c6e33e93",
+						"preview"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

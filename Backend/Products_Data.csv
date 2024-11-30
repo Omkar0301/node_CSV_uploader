@@ -1,0 +1,11 @@
+Product Name,Price,Image URL,Category,Description,Is Available
+Running Shoes,79.99,https://m.media-amazon.com/images/I/41Hyt7sBm9L._SX300_SY300_QL70_FMwebp_.jpg,Shoes,Lightweight running shoes for all types of terrain.,TRUE
+Wireless Headphones,49.95,https://m.media-amazon.com/images/I/41HFqEr055L._SX300_SY300_QL70_FMwebp_.jpg,Electronics,Noise-canceling headphones with long battery life.,TRUE
+Coffee Maker,24.99,https://m.media-amazon.com/images/I/41dIjjjscML._SX300_SY300_QL70_FMwebp_.jpg,Kitchen Appliances,Brews a delicious cup of coffee in minutes.,FALSE
+Baseball Cap,14.99,https://m.media-amazon.com/images/I/61bBYBR2SFL._SX679_.jpg,Clothing,Adjustable baseball cap with your favorite team logo.,TRUE
+Novelty T-Shirt,19.99,https://m.media-amazon.com/images/I/51bpMoyTx0L._SX679_.jpg,Clothing,Funny t-shirt with a unique design.,TRUE
+Smartwatch,129.99,https://m.media-amazon.com/images/I/41KxY3gZMPL._SX300_SY300_QL70_FMwebp_.jpg,Electronics,Fitness tracker with heart rate monitoring and sleep tracking.,FALSE
+Laptop Backpack,39.99,https://m.media-amazon.com/images/I/61egMfcDWlL._SX679_.jpg,Bags,Durable backpack with padded laptop compartment.,FALSE
+Sunglasses,19.99,https://m.media-amazon.com/images/I/41KML+1HubL._SX679_.jpg,Accessories,Polarized sunglasses to protect your eyes from the sun.,TRUE
+Bluetooth Speaker,29.99,https://m.media-amazon.com/images/I/41F4XRgBg-L._SX300_SY300_QL70_FMwebp_.jpg,Electronics,Portable speaker for music on the go.,FALSE
+Board Game,19.99,https://m.media-amazon.com/images/I/41eOi-mhF1L._SX300_SY300_QL70_FMwebp_.jpg,Games,Fun and challenging board game for family and friends.,TRUE
